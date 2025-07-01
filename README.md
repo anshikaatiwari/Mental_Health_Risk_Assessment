@@ -28,7 +28,7 @@ The app is powered by a machine learning model trained on kaggle data and deploy
 
 ---
 
-## 🧠 Key Insights from Data
+##  Key Insights from Data
 
 * **Sleep duration** and **academic/work pressure** had strong correlations with depression risk.
 * Students with low study satisfaction and high CGPA often reported signs of stress.
