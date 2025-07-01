@@ -11,7 +11,7 @@ The app is powered by a machine learning model trained on kaggle data and deploy
 
 ##  Dataset
 
-**Source**: Kaggle Mental health dataset (https://www.kaggle.com/competitions/playground-series-s4e11/overview)
+**Source**: Kaggle Mental Health dataset (https://www.kaggle.com/competitions/playground-series-s4e11/overview)
 
 **Features included:**
 
@@ -20,11 +20,11 @@ The app is powered by a machine learning model trained on kaggle data and deploy
 * Lifestyle: Sleep duration, Dietary habits
 * Mental Health Indicators: Suicidal thoughts, Family history of mental illness, Satisfaction and Pressure levels
 
-> **Preprocessing steps:**
->
-> * Null/missing value handling (SimpleImputer)
-> * Encoding categorical variables (OrdinalEncoder)
-> * Feature scaling (StandardScaler)
+**Preprocessing steps:**
+
+* Null/missing value handling (SimpleImputer)
+* Encoding categorical variables (OrdinalEncoder)
+* Feature scaling (StandardScaler)
 
 ---
 
@@ -54,11 +54,11 @@ Each model was trained using a pipeline built with `scikit-learn`, using column 
 * Recall
 * F1 Score
 
->  **Best performing model: Gradient Boosting Classifier**
->
-> * Accuracy: **91.96%**
-> * Good balance between bias and variance
-> * Outperformed Logistic Regression, Random Forest, and KNN in F1 score and Recall.
+**Best performing model: Gradient Boosting Classifier**
+
+* Accuracy: **91.96%**
+* Good balance between bias and variance
+* Outperformed Logistic Regression, Random Forest, and KNN in F1 score and Recall.
 
 ---
 
@@ -95,8 +95,8 @@ This Flask web app allows users to input personal and lifestyle data through a f
 **To run locally:**
 
 ```bash
-git clone https://github.com/your-username/mental-health-prediction.git
-cd mental-health-prediction
+git clone https://github.com/anshikaatiwari/Mental_Health_Risk_Assessment
+cd Mental_Health_Risk_Assessment
 pip install -r requirements.txt
 python app.py
 ```
